@@ -31,9 +31,9 @@ jobs:
       run: mvn -B package --file pom.xml
      
      # upload the jar produced in target/
-     - name: Upload JAR artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: jar
-        path: target/*.jar
+     - name: Upload JAR artifacㅅ
+       uses: actions/upload-artifact@v4
+       with:
+         name: jar
+         path: target/*.jar
   
