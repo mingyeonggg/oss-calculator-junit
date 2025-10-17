@@ -45,9 +45,6 @@ protected boolean isPrime(int num){
     }
     return true;
 }
-@Test
-@DisplayName("This test will fail intentionally")
-void failTest() {
-    assertEquals(5, 2 + 2, "This should fail");
+
 }
-}
+
